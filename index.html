@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chewy&family=Chicle&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Titan+One&display=swap" rel="stylesheet">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>New York City Gluten Free Map</title>
+   
+   <style>
+   
+
+    </style>  
+</head>
+
+<body>
+    <div id="big-container">
+    <h1>New York City Gluten-Free Map</h1>
+<!-- food icon buttons go herer -->
+    <div class = "button-container">
+      <button data-value="Anything!">Anything!</button>
+      <button data-value="Bakery"><image src= "./img/bakery.png" class ="icon"></image></button>
+      <button data-value="Salads"><image src= "./img/salads.png" class ="icon"></image></button>
+      <button data-value="Latin American"><image src= "./img/latinamerican.png" class ="icon"></image></button>
+      <button data-value="Italian"><image src= "./img/italian.png" class ="icon"></image></button>
+      <button data-value="Asian"><image src= "./img/asian.png" class ="icon"></image></button>
+      <button data-value="African"><image src= "./img/african.png" class ="icon"></image></button>
+      <button data-value="American"><image src= "./img/american.png" class ="icon"></image></button>  
+    </div>
+
+    
+    <form id="neighborhood_form" onsubmit="filternbh(event)" method="get">
+        <label class ="neighborhood" for="neighborhood"><p>Choose your neighborhood from the list:</p></label>    <!-- <select id="neighborhood" required> -->
+        <input list = 'neighborhoods' name = 'neighborhood' id = 'neighborhood'>
+        <datalist id="neighborhoods">
+          <option value="Show All">
+          <option value="Upper West Side">
+          <option value="Upper East Side">
+          <option value="Midtown">
+          <option value="East Village">
+          <option value="Greenwich Village">
+          <option value="Financial District">
+          <option value="Chelsea">
+          <option value="Union Square">
+          <option value="Flatiron">
+          <option value="Lower East Side">
+          <option value="Hell's Kitchen">
+        </datalist>
+         <!-- </select> -->
+      <input type="submit">
+   </form>
+
+    <!-- <div class = "dropdown">
+      <button class="dropbtn">Neighborhood</button>
+      <div class="dropdown-content">
+        <div class="dropdown-item" data-value="Show All">Show All</div>
+        <div class="dropdown-item" data-value="Upper West Side">Upper West Side</div>
+        <div class="dropdown-item" data-value="Upper East Side">Upper East Side</div>
+        <div class="dropdown-item" data-value="Midtown">Midtown</div>
+        <div class="dropdown-item" data-value="East Village">East Village</div>
+        <div class="dropdown-item" data-value="Greenwich Village">Greenwich Village</div>
+        <div class="dropdown-item" data-value="Financial District">Financial District</div>
+        <div class="dropdown-item" data-value="Chelsea">Chelsea</div>
+        <div class="dropdown-item" data-value="Union Square">Union Square</div>
+        <div class="dropdown-item" data-value="Flatiron">Flatiron</div>
+        <div class="dropdown-item" data-value="Lower East Side">Lower East Side</div>
+        <div class="dropdown-item" data-value="Hell's Kitchen">Hell's Kitchen</div>
+      </div>
+    </div> -->
+    </div>
+
+    <div id ="container">
+
+    </div>
+    </div>
+    <script src="script.js"></script>
+</div>
+</body>
+</html>
