@@ -28,7 +28,7 @@ margin-top: 20px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    line-height:100px;
+    /* line-height:100px; */
 }
 
 #container {
@@ -38,7 +38,6 @@ margin-top: 20px;
   vertical-align: column;
   width: 100%;
   margin: 10px;
-  line-height: 200%; 
 }
 
 #filter-container {
@@ -47,7 +46,6 @@ margin-top: 20px;
   text-align: center;
   padding-bottom: 10px;
   margin-bottom: 10px;
-  line-height: 30px;
 }
 
 #container > div.cards {
@@ -59,17 +57,30 @@ margin-top: 20px;
         margin: 20px;
         background-color: #D9D9D9;
         text-align: center;
-        justify-content: center;
-        display:flex;
+        justify-content: space-between;
+        /* display:flex; */
         flex-direction:column;
-        line-height: 20px;
         background-size: cover;
         background-position: center;
 }
 
+.cards p {
+  font-family: "Chewy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5em;
+  color: #16DB93;
+  text-shadow:
+      1px 1px 0 #284B63,
+      -1px 1px 0 #284B63,
+      -1px -1px 0 #284B63,
+      1px -1px 0 #284B63;
+  line-height: 1em;
+  list-style-type: square;
+}
+
     h1 {
         margin-top: 0;
-        /* if too much space between header and type of food activate */
         margin-bottom:0;
         font-family: "Titan One", sans-serif;
         font-weight: 400;
@@ -89,6 +100,7 @@ margin-top: 20px;
         font-weight: 400;
         font-style: normal;
         font-size: 2em;
+        padding-top:20px;
         color:  #284B63;
         text-align: center;
         line-height: 30px;
@@ -99,19 +111,6 @@ margin-top: 20px;
             1px -1px 0 #ffffff;
 
     }
-
-    h3 {
-        font-family: "Comic Neue", cursive;
-        font-weight: 700;
-        font-style: normal;
-        font-size: 1em;
-        color:  #284B63;
-        text-align: justify;
-        /* line-height: 5px; */
-
-    }
-
-
 
     p {
         font-family: "Chewy", system-ui;
@@ -124,7 +123,7 @@ margin-top: 20px;
             -1px 1px 0 #284B63,
             -1px -1px 0 #284B63,
             1px -1px 0 #284B63;
-        line-height: 0.5px;
+        /* max-height: 0.5em; */
         list-style-type: square;            
     }
 
@@ -266,6 +265,9 @@ h2 {
     max-width: 525px;
     padding: 20px; 
 } 
+/* .cards p {
+  min-height:3.6em;
+} */
 h1 {
   font-size: 4em;
 }
