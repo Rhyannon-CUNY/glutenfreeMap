@@ -1,10 +1,23 @@
-maptilersdk.config.apiKey = 'eppeRtADpgbcNzKDoHlF';
-const map = new maptilersdk.Map({
-  container: 'map', // container's id or the HTML element in which the SDK will render the map
-  style: maptilersdk.MapStyle.STREETS,
-  center: [-73.9816, 40.7538], // starting position [lng, lat]
-  zoom: 12 // starting zoom
-});    
+// maptilersdk.config.apiKey = 'eppeRtADpgbcNzKDoHlF';
+// const map = new maptilersdk.Map({
+//   container: 'map', // container's id or the HTML element in which the SDK will render the map
+//   style: maptilersdk.MapStyle.STREETS,
+//   center: [-73.9816, 40.7538], // starting position [lng, lat]
+//   zoom: 12 // starting zoom
+// });    
+
+const map = new maplibregl.Map({
+container: 'map',
+  style:
+      'https://api.maptiler.com/maps/streets/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL',
+    center: [-73.9816, 40.7538],
+    zoom: 12
+});
+ // add default point on map //
+ const marker = new maplibregl.Marker()
+ .setLngLat([-73.985503, 40.758959])
+ .addTo(map);   
+
     
     const df = [
       {
@@ -719,10 +732,14 @@ const map = new maptilersdk.Map({
                <p>${food_txt}</p>
                <p>${link_txt}</p>
                `;
+              
+              // const marker = new maplibregl.Marker()
+              // .setLngLat(${coordinates});
+              // .addTo(map);   
+
        
                elementDiv.innerHTML = cardText;
        
-               // let image = <img src="hurricane_damage.jpg">
        
                elementDiv.setAttribute('data-nbh', nbh);
                elementDiv.setAttribute('data-icon', icon);
@@ -732,7 +749,7 @@ const map = new maptilersdk.Map({
            
        
            df.forEach(function(c){
-               makeCards(c.Name, c.Neighborhood, c.Address, c.TypeFood, c.Link, c.Img, c.Icon);
+               makeCards(c.Name, c.Neighborhood, c.Address, c.TypeFood, c.Link, c.Img, c.Icon, c.Coordinates);
            });
          
          // let dropdown = document.querySelector('.dropdown');
@@ -784,5 +801,6 @@ const map = new maptilersdk.Map({
          dropdown.addEventListener('click', function() {
            this.classList.add('clicked');
          });
-                  
+
+       
          ;
