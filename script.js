@@ -30,7 +30,7 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "https://www.agatavalentina.com/",
         "Img": "bagels.jpeg",
-        "Coordinates": "[40.772563, -73.952746]"
+        "Long+Lat": "[-73.952746, 40.772563]"
       },
       {
         "Name": "Ben&#39;s Fast Food",
@@ -42,7 +42,7 @@ container: 'map',
         "Icon": "Salads",
         "Link": "https://bensfastfood.com/",
         "Img": "littlebeet.jpeg",
-        "Coordinates": "[40.758959, -73.985503]"
+        "Long+Lat": "[-73.98618, 40.758995]"
       },
       {
         "Name": "Birria Landia",
@@ -54,7 +54,7 @@ container: 'map',
         "Icon": "Latin American",
         "Link": "https://birrialandia.com/",
         "Img": "birrialandia.jpg",
-        "Coordinates": "[40.777303, -73.982582]"
+        "Long+Lat": "[-73.957533, 40.811449]"
       },
       {
         "Name": "Bungalow",
@@ -66,7 +66,7 @@ container: 'map',
         "Icon": "Asian",
         "Link": "https://www.bungalowny.com/menu",
         "Img": "bungalow.png",
-        "Coordinates": "[40.777963, -73.956871]"
+        "Long+Lat": "[-73.987955, 40.723652]"
       },
       {
         "Name": "By The Way Bakery",
@@ -78,7 +78,7 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "http://www.btwBakery.com",
         "Img": "bagels.jpeg",
-        "Coordinates": "[40.790928, -73.974189]"
+        "Long+Lat": "[-73.956871, 40.777963]"
       },
       {
         "Name": "By The Way Bakery",
@@ -90,7 +90,7 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "http://btwBakery.com",
         "Img": "bagels.jpeg",
-        "Coordinates": "[40.726434, -73.984195]"
+        "Long+Lat": "[-73.974189, 40.790928]"
       },
       {
         "Name": "Crepe Master",
@@ -102,7 +102,7 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "http://www.crepemasternyc.com",
         "Img": "crepe.jpg",
-        "Coordinates": "[40.71634, -73.988555]"
+        "Long+Lat": "[-73.984195, 40.726434]"
       },
       {
         "Name": "D&ugrave;ND&uacute;",
@@ -114,7 +114,7 @@ container: 'map',
         "Icon": "African",
         "Link": "https://eatdundu.com/",
         "Img": "dundu.jpg",
-        "Coordinates": "[40.75236, -73.977412]"
+        "Long+Lat": "[-73.975788, 40.750348]"
       },
       {
         "Name": "Doughnut Plant",
@@ -126,7 +126,7 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "http://www.doughnutplant.com",
         "Img": "donut.jpg",
-        "Coordinates": "[40.750348, -73.975788]"
+        "Long+Lat": "[-73.988555, 40.71634]"
       },
       {
         "Name": "Doughnut Plant",
@@ -138,7 +138,7 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "http://www.doughnutplant.com",
         "Img": "donut.jpg",
-        "Coordinates": "[40.783908, -73.956778]"
+        "Long+Lat": "[-73.977412, 40.75236]"
       },
       {
         "Name": "GLACE by NoGlu",
@@ -150,7 +150,7 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "https://noglu.fr/en/new-york/Bakery",
         "Img": "glace.jpg",
-        "Coordinates": "[40.75899, -73.96883]"
+        "Long+Lat": "[-73.956778, 40.783908]"
       },
       {
         "Name": "Kati Shop",
@@ -162,7 +162,7 @@ container: 'map',
         "Icon": "Asian",
         "Link": "https://www.katishopnyc.com/",
         "Img": "kati.jpg",
-        "Coordinates": "[40.751824, -73.986948]"
+        "Long+Lat": "[-73.96883, 40.75899]"
       },
       {
         "Name": "Kati Shop",
@@ -174,7 +174,7 @@ container: 'map',
         "Icon": "Asian",
         "Link": "https://www.katishopnyc.com/",
         "Img": "kati.jpg",
-        "Coordinates": "[40.742222, -74.004664]"
+        "Long+Lat": "[-73.986948, 40.751824]"
       },
       {
         "Name": "Kimbap Lab",
@@ -186,7 +186,7 @@ container: 'map',
         "Icon": "Asian",
         "Link": "https://www.kimbaplab.com/",
         "Img": "korean.jpg",
-        "Coordinates": "[40.765006, -73.96596]"
+        "Long+Lat": "[-74.004664, 40.742222]"
       },
       {
         "Name": "Le Botaniste",
@@ -198,7 +198,7 @@ container: 'map',
         "Icon": "Salads",
         "Link": "https://lebotaniste.us/",
         "Img": "littlebeet.jpeg",
-        "Coordinates": "[40.738239, -73.998521]"
+        "Long+Lat": "[-73.96596, 40.765006]"
       },
       {
         "Name": "Lilli and Loo",
@@ -210,7 +210,7 @@ container: 'map',
         "Icon": "Asian",
         "Link": "https://lilliandloonyc.com/",
         "Img": "lilliandloo.jpg",
-        "Coordinates": "[40.758373, -73.970993]"
+        "Long+Lat": "[-73.967029, 40.76357]"
       },
       {
         "Name": "Mission Ceviche",
@@ -222,7 +222,7 @@ container: 'map',
         "Icon": "Latin American",
         "Link": "https://missionceviche.com/",
         "Img": "birrialandia.jpg",
-        "Coordinates": "[40.702627, -73.958142]"
+        "Long+Lat": "[-73.991438, 40.737694]"
       },
       {
         "Name": "Mission Ceviche",
@@ -234,7 +234,7 @@ container: 'map',
         "Icon": "Latin American",
         "Link": "https://missionceviche.com/",
         "Img": "birrialandia.jpg",
-        "Coordinates": "[40.78438, -73.973924]"
+        "Long+Lat": "[-73.957791, 40.769271]"
       },
       {
         "Name": "Modern Bread and Bagel",
@@ -246,7 +246,7 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "https://www.modernbreadandbagel.com/",
         "Img": "bagels.jpeg",
-        "Coordinates": "[40.738379, -74.00198]"
+        "Long+Lat": "[-73.998521, 40.738239]"
       },
       {
         "Name": "Modern Bread and Bagel",
@@ -258,7 +258,7 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "https://www.modernbreadandbagel.com/",
         "Img": "bagels.jpeg",
-        "Coordinates": "[40.730198, -74.003256]"
+        "Long+Lat": "[-73.983616, 40.763636]"
       },
       {
         "Name": "Modern Bread and Bagel",
@@ -270,7 +270,7 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "https://www.modernbreadandbagel.com/",
         "Img": "bagels.jpeg",
-        "Coordinates": "[40.783586, -73.957008]"
+        "Long+Lat": "[-73.958142, 40.702627]"
       },
       {
         "Name": "Modern Bread and Bagel",
@@ -282,7 +282,7 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "https://www.modernbreadandbagel.com/",
         "Img": "bagels.jpeg",
-        "Coordinates": "[40.758959, -73.985503]"
+        "Long+Lat": "[-73.973924, 40.78438]"
       },
       {
         "Name": "NADAS NYC",
@@ -294,7 +294,7 @@ container: 'map',
         "Icon": "Latin American",
         "Link": "https://www.nadas.nyc/",
         "Img": "nadas.jpg",
-        "Coordinates": "[40.729223, -74.001522]"
+        "Long+Lat": "[-74.00198, 40.738379]"
       },
       {
         "Name": "Nami Nori",
@@ -306,7 +306,7 @@ container: 'map',
         "Icon": "Asian",
         "Link": "https://naminori.nyc/",
         "Img": "naminori.jpg",
-        "Coordinates": "[40.755846, -73.992143]"
+        "Long+Lat": "[-74.003256, 40.730198]"
       },
       {
         "Name": "NoGlu NY",
@@ -318,7 +318,7 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "https://www.noglu.nyc/",
         "Img": "bagels.jpeg",
-        "Coordinates": "[40.730198, -74.003256]"
+        "Long+Lat": "[-73.957008, 40.783586]"
       },
       {
         "Name": "Palmita",
@@ -330,7 +330,7 @@ container: 'map',
         "Icon": "Salads",
         "Link": "https://www.eatpalmita.com/",
         "Img": "littlebeet.jpeg",
-        "Coordinates": "[40.720952, -73.988673]"
+        "Long+Lat": "[-73.98618, 40.758995]"
       },
       {
         "Name": "PoshPop Bakeshop",
@@ -342,7 +342,7 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "https://www.poshpopbakeshop.com/",
         "Img": "bagels.jpeg",
-        "Coordinates": "[40.726638, -73.988379]"
+        "Long+Lat": "[-74.001522, 40.729223]"
       },
       {
         "Name": "PoshPop Bakeshop",
@@ -354,7 +354,7 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "https://www.poshpopbakeshop.com/",
         "Img": "bagels.jpeg",
-        "Coordinates": "[40.729019, -74.000369]"
+        "Long+Lat": "[-73.992143, 40.755846]"
       },
       {
         "Name": "Postcard",
@@ -366,7 +366,7 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "http://www.postcardBakery.co",
         "Img": "bagels.jpeg",
-        "Coordinates": "[40.761081, -73.994185]"
+        "Long+Lat": "[-74.003256, 40.730198]"
       },
       {
         "Name": "Rawsome Treats",
@@ -378,7 +378,7 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "http://www.rawsometreats.co",
         "Img": "bagels.jpeg",
-        "Coordinates": "[40.728027, -74.000968]"
+        "Long+Lat": "[-73.988673, 40.720952]"
       },
       {
         "Name": "Risotteria Melotti",
@@ -390,7 +390,7 @@ container: 'map',
         "Icon": "Italian",
         "Link": "https://www.risotteriamelottinyc.com/",
         "Img": "risotto.jpg",
-        "Coordinates": "[40.703738, -74.010464]"
+        "Long+Lat": "[-73.988379, 40.726638]"
       },
       {
         "Name": "Senza Gluten",
@@ -402,7 +402,7 @@ container: 'map',
         "Icon": "Italian",
         "Link": "https://senzaglutennyc.com/",
         "Img": "italian.jpg",
-        "Coordinates": "[40.757804, -73.679653]"
+        "Long+Lat": "[-74.000369, 40.729019]"
       },
       {
         "Name": "Senza Gluten by Jemiko",
@@ -414,7 +414,7 @@ container: 'map',
         "Icon": "Italian",
         "Link": "https://senzaglutenbyjemiko.com/",
         "Img": "italian.jpg",
-        "Coordinates": "[40.703738, -74.010464]"
+        "Long+Lat": "[-73.994185, 40.761081]"
       },
       {
         "Name": "Senza Gluten Cafe & Bakery",
@@ -426,7 +426,7 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "https://senzaglutenbyjemiko.com/",
         "Img": "bagels.jpeg",
-        "Coordinates": "[40.758669, -73.975545]"
+        "Long+Lat": "[-74.000968, 40.728027]"
       },
       {
         "Name": "Spring Burgers and Fries",
@@ -438,7 +438,7 @@ container: 'map',
         "Icon": "American",
         "Link": "https://www.instagram.com/eatspringy/",
         "Img": "burger.jpeg",
-        "Coordinates": "[40.740442, -73.98736]"
+        "Long+Lat": "[-74.010464, 40.703738]"
       },
       {
         "Name": "Springbone",
@@ -450,7 +450,7 @@ container: 'map',
         "Icon": "Salads",
         "Link": "http://springbone.com/",
         "Img": "littlebeet.jpeg",
-        "Coordinates": "[40.729913, -73.999272]"
+        "Long+Lat": "[-73.996328, 40.750422]"
       },
       {
         "Name": "Springbone",
@@ -462,7 +462,7 @@ container: 'map',
         "Icon": "Salads",
         "Link": "http://springbone.com/",
         "Img": "littlebeet.jpeg",
-        "Coordinates": "[40.756689, -73.982872]"
+        "Long+Lat": "[-74.010464, 40.703738]"
       },
       {
         "Name": "Springbone",
@@ -474,7 +474,7 @@ container: 'map',
         "Icon": "Salads",
         "Link": "http://springbone.com/",
         "Img": "littlebeet.jpeg",
-        "Coordinates": "[40.728704, -73.980157]"
+        "Long+Lat": "[-73.975545, 40.758669]"
       },
       {
         "Name": "Springbone",
@@ -486,7 +486,7 @@ container: 'map',
         "Icon": "Salads",
         "Link": "http://springbone.com/",
         "Img": "littlebeet.jpeg",
-        "Coordinates": "[40.733271, -74.005585]"
+        "Long+Lat": "[-73.98736, 40.740442]"
       },
       {
         "Name": "Springbone",
@@ -498,7 +498,7 @@ container: 'map',
         "Icon": "Salads",
         "Link": "http://springbone.com/",
         "Img": "littlebeet.jpeg",
-        "Coordinates": "[40.751898, -73.973399]"
+        "Long+Lat": "[-73.999272, 40.729913]"
       },
       {
         "Name": "Springbone",
@@ -510,7 +510,7 @@ container: 'map',
         "Icon": "Salads",
         "Link": "http://springbone.com/",
         "Img": "littlebeet.jpeg",
-        "Coordinates": "[40.777648, -73.978397]"
+        "Long+Lat": "[-73.982872, 40.756689]"
       },
       {
         "Name": "Sushi Counter",
@@ -522,7 +522,7 @@ container: 'map',
         "Icon": "Asian",
         "Link": "https://sushicounternyc.com/",
         "Img": "NamiNori.jpg",
-        "Coordinates": "[40.760841, -73.982409]"
+        "Long+Lat": "[-73.980157, 40.728704]"
       },
       {
         "Name": "Sushi Counter",
@@ -534,7 +534,7 @@ container: 'map',
         "Icon": "Asian",
         "Link": "https://sushicounternyc.com/",
         "Img": "NamiNori.jpg",
-        "Coordinates": "[40.75168, -73.977677]"
+        "Long+Lat": "[-74.005585, 40.733271]"
       },
       {
         "Name": "TAP NYC",
@@ -546,7 +546,7 @@ container: 'map',
         "Icon": "Latin American",
         "Link": "https://www.eattap.co/",
         "Img": "birrialandia.jpg",
-        "Coordinates": "[40.753837, -73.985458]"
+        "Long+Lat": "[-73.973399, 40.751898]"
       },
       {
         "Name": "TAP NYC",
@@ -558,7 +558,7 @@ container: 'map',
         "Icon": "Latin American",
         "Link": "https://www.eattap.co/",
         "Img": "birrialandia.jpg",
-        "Coordinates": "[40.757595, -73.973992]"
+        "Long+Lat": "[-73.978397, 40.777648]"
       },
       {
         "Name": "The Little Beet",
@@ -570,7 +570,7 @@ container: 'map',
         "Icon": "Salads",
         "Link": "https://www.thelittlebeet.com/locations",
         "Img": "littlebeet.jpeg",
-        "Coordinates": "[40.743964, -73.988827]"
+        "Long+Lat": "[-73.982409, 40.760841]"
       },
       {
         "Name": "The Little Beet",
@@ -582,7 +582,7 @@ container: 'map',
         "Icon": "Salads",
         "Link": "https://www.thelittlebeet.com/locations",
         "Img": "littlebeet.jpeg",
-        "Coordinates": "[40.766219, -73.957382]"
+        "Long+Lat": "[-73.977677, 40.75168]"
       },
       {
         "Name": "The Little Beet",
@@ -594,7 +594,7 @@ container: 'map',
         "Icon": "Salads",
         "Link": "https://www.thelittlebeet.com/locations",
         "Img": "littlebeet.jpeg",
-        "Coordinates": "[40.784443, -73.973879]"
+        "Long+Lat": "[-73.985458, 40.753837]"
       },
       {
         "Name": "The Little Beet",
@@ -606,7 +606,7 @@ container: 'map',
         "Icon": "Salads",
         "Link": "https://www.thelittlebeet.com/locations",
         "Img": "littlebeet.jpeg",
-        "Coordinates": "[40.704265, -74.009795]"
+        "Long+Lat": "[-73.973992, 40.757595]"
       },
       {
         "Name": "The Little Beet",
@@ -618,7 +618,7 @@ container: 'map',
         "Icon": "Salads",
         "Link": "https://www.thelittlebeet.com/locations",
         "Img": "littlebeet.jpeg",
-        "Coordinates": "[40.635138, -73.997057]"
+        "Long+Lat": "[-73.988827, 40.743964]"
       },
       {
         "Name": "The Little Beet",
@@ -630,7 +630,7 @@ container: 'map',
         "Icon": "Salads",
         "Link": "https://www.thelittlebeet.com/locations",
         "Img": "littlebeet.jpeg",
-        "Coordinates": "[40.758959, -73.985503]"
+        "Long+Lat": "[-73.957382, 40.766219]"
       },
       {
         "Name": "Thyme and Tonic",
@@ -642,7 +642,7 @@ container: 'map',
         "Icon": "American",
         "Link": "https://www.thymeandtonic.com/",
         "Img": "burger.jpeg",
-        "Coordinates": "[40.723652, -73.987955]"
+        "Long+Lat": "[-73.973879, 40.784443]"
       },
       {
         "Name": "TLK-Tigerlilly Kitchen",
@@ -654,7 +654,7 @@ container: 'map',
         "Icon": "Asian",
         "Link": "https://www.tlk-nyc.com/",
         "Img": "lilliandloo.jpg",
-        "Coordinates": "[40.737694, -73.991438]"
+        "Long+Lat": "[-73.995226, 40.716026]"
       },
       {
         "Name": "Twenty one Grains",
@@ -666,7 +666,7 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "https://twentyonegrains.com",
         "Img": "bagels.jpeg",
-        "Coordinates": "[40.769271, -73.957791]"
+        "Long+Lat": "[-74.009795, 40.704265]"
       },
       {
         "Name": "Twenty one Grains",
@@ -678,7 +678,7 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "https://twentyonegrains.com",
         "Img": "bagels.jpeg",
-        "Coordinates": "[40.716026, -73.995226]"
+        "Long+Lat": "[-73.983891, 40.763256]"
       },
       {
         "Name": "Umami Express",
@@ -690,7 +690,7 @@ container: 'map',
         "Icon": "Salads",
         "Link": "https://Umamiexpress.co",
         "Img": "littlebeet.jpeg",
-        "Coordinates": "[40.734571, -74.006343]"
+        "Long+Lat": "[-73.98618, 40.758995]"
       },
       {
         "Name": "Wild",
@@ -702,7 +702,7 @@ container: 'map',
         "Icon": "Italian",
         "Link": "https://eatdrinkwild.com/",
         "Img": "italian.jpg",
-        "Coordinates": "[40.76357, -73.967029]"
+        "Long+Lat": "[-74.006343, 40.734571]"
       }
      ]
        
