@@ -30,7 +30,8 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "https://www.agatavalentina.com/",
         "Img": "bagels.jpeg",
-        "Long+Lat": "[-73.952746, 40.772563]"
+        "Long": -73.952746,
+        "Lat": 40.772563
       },
       {
         "Name": "Ben&#39;s Fast Food",
@@ -42,7 +43,8 @@ container: 'map',
         "Icon": "Salads",
         "Link": "https://bensfastfood.com/",
         "Img": "littlebeet.jpeg",
-        "Long+Lat": "[-73.98618, 40.758995]"
+        "Long": -73.98618,
+        "Lat": 40.758995
       },
       {
         "Name": "Birria Landia",
@@ -54,7 +56,8 @@ container: 'map',
         "Icon": "Latin American",
         "Link": "https://birrialandia.com/",
         "Img": "birrialandia.jpg",
-        "Long+Lat": "[-73.957533, 40.811449]"
+        "Long": -73.957533,
+        "Lat": 40.811449
       },
       {
         "Name": "Bungalow",
@@ -66,7 +69,8 @@ container: 'map',
         "Icon": "Asian",
         "Link": "https://www.bungalowny.com/menu",
         "Img": "bungalow.png",
-        "Long+Lat": "[-73.987955, 40.723652]"
+        "Long": -73.987955,
+        "Lat": 40.723652
       },
       {
         "Name": "By The Way Bakery",
@@ -78,7 +82,8 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "http://www.btwBakery.com",
         "Img": "bagels.jpeg",
-        "Long+Lat": "[-73.956871, 40.777963]"
+        "Long": -73.956871,
+        "Lat": 40.777963
       },
       {
         "Name": "By The Way Bakery",
@@ -90,7 +95,8 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "http://btwBakery.com",
         "Img": "bagels.jpeg",
-        "Long+Lat": "[-73.974189, 40.790928]"
+        "Long": -73.974189,
+        "Lat": 40.790928
       },
       {
         "Name": "Crepe Master",
@@ -102,7 +108,8 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "http://www.crepemasternyc.com",
         "Img": "crepe.jpg",
-        "Long+Lat": "[-73.984195, 40.726434]"
+        "Long": -73.984195,
+        "Lat": 40.726434
       },
       {
         "Name": "D&ugrave;ND&uacute;",
@@ -114,7 +121,8 @@ container: 'map',
         "Icon": "African",
         "Link": "https://eatdundu.com/",
         "Img": "dundu.jpg",
-        "Long+Lat": "[-73.975788, 40.750348]"
+        "Long": -73.975788,
+        "Lat": 40.750348
       },
       {
         "Name": "Doughnut Plant",
@@ -126,7 +134,8 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "http://www.doughnutplant.com",
         "Img": "donut.jpg",
-        "Long+Lat": "[-73.988555, 40.71634]"
+        "Long": -73.988555,
+        "Lat": 40.71634
       },
       {
         "Name": "Doughnut Plant",
@@ -138,7 +147,8 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "http://www.doughnutplant.com",
         "Img": "donut.jpg",
-        "Long+Lat": "[-73.977412, 40.75236]"
+        "Long": -73.977412,
+        "Lat": 40.75236
       },
       {
         "Name": "GLACE by NoGlu",
@@ -150,7 +160,8 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "https://noglu.fr/en/new-york/Bakery",
         "Img": "glace.jpg",
-        "Long+Lat": "[-73.956778, 40.783908]"
+        "Long": -73.956778,
+        "Lat": 40.783908
       },
       {
         "Name": "Kati Shop",
@@ -162,7 +173,8 @@ container: 'map',
         "Icon": "Asian",
         "Link": "https://www.katishopnyc.com/",
         "Img": "kati.jpg",
-        "Long+Lat": "[-73.96883, 40.75899]"
+        "Long": -73.96883,
+        "Lat": 40.75899
       },
       {
         "Name": "Kati Shop",
@@ -174,7 +186,8 @@ container: 'map',
         "Icon": "Asian",
         "Link": "https://www.katishopnyc.com/",
         "Img": "kati.jpg",
-        "Long+Lat": "[-73.986948, 40.751824]"
+        "Long": -73.986948,
+        "Lat": 40.751824
       },
       {
         "Name": "Kimbap Lab",
@@ -186,7 +199,8 @@ container: 'map',
         "Icon": "Asian",
         "Link": "https://www.kimbaplab.com/",
         "Img": "korean.jpg",
-        "Long+Lat": "[-74.004664, 40.742222]"
+        "Long": -74.004664,
+        "Lat": 40.742222
       },
       {
         "Name": "Le Botaniste",
@@ -198,7 +212,8 @@ container: 'map',
         "Icon": "Salads",
         "Link": "https://lebotaniste.us/",
         "Img": "littlebeet.jpeg",
-        "Long+Lat": "[-73.96596, 40.765006]"
+        "Long": -73.96596,
+        "Lat": 40.765006
       },
       {
         "Name": "Lilli and Loo",
@@ -210,7 +225,8 @@ container: 'map',
         "Icon": "Asian",
         "Link": "https://lilliandloonyc.com/",
         "Img": "lilliandloo.jpg",
-        "Long+Lat": "[-73.967029, 40.76357]"
+        "Long": -73.967029,
+        "Lat": 40.76357
       },
       {
         "Name": "Mission Ceviche",
@@ -222,7 +238,8 @@ container: 'map',
         "Icon": "Latin American",
         "Link": "https://missionceviche.com/",
         "Img": "birrialandia.jpg",
-        "Long+Lat": "[-73.991438, 40.737694]"
+        "Long": -73.991438,
+        "Lat": 40.737694
       },
       {
         "Name": "Mission Ceviche",
@@ -234,7 +251,8 @@ container: 'map',
         "Icon": "Latin American",
         "Link": "https://missionceviche.com/",
         "Img": "birrialandia.jpg",
-        "Long+Lat": "[-73.957791, 40.769271]"
+        "Long": -73.957791,
+        "Lat": 40.769271
       },
       {
         "Name": "Modern Bread and Bagel",
@@ -246,7 +264,8 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "https://www.modernbreadandbagel.com/",
         "Img": "bagels.jpeg",
-        "Long+Lat": "[-73.998521, 40.738239]"
+        "Long": -73.998521,
+        "Lat": 40.738239
       },
       {
         "Name": "Modern Bread and Bagel",
@@ -258,7 +277,8 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "https://www.modernbreadandbagel.com/",
         "Img": "bagels.jpeg",
-        "Long+Lat": "[-73.983616, 40.763636]"
+        "Long": -73.983616,
+        "Lat": 40.763636
       },
       {
         "Name": "Modern Bread and Bagel",
@@ -270,7 +290,8 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "https://www.modernbreadandbagel.com/",
         "Img": "bagels.jpeg",
-        "Long+Lat": "[-73.958142, 40.702627]"
+        "Long": -73.993584,
+        "Lat": 40.75058
       },
       {
         "Name": "Modern Bread and Bagel",
@@ -282,7 +303,8 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "https://www.modernbreadandbagel.com/",
         "Img": "bagels.jpeg",
-        "Long+Lat": "[-73.973924, 40.78438]"
+        "Long": -73.973924,
+        "Lat": 40.78438
       },
       {
         "Name": "NADAS NYC",
@@ -294,7 +316,8 @@ container: 'map',
         "Icon": "Latin American",
         "Link": "https://www.nadas.nyc/",
         "Img": "nadas.jpg",
-        "Long+Lat": "[-74.00198, 40.738379]"
+        "Long": -74.00198,
+        "Lat": 40.738379
       },
       {
         "Name": "Nami Nori",
@@ -306,7 +329,8 @@ container: 'map',
         "Icon": "Asian",
         "Link": "https://naminori.nyc/",
         "Img": "naminori.jpg",
-        "Long+Lat": "[-74.003256, 40.730198]"
+        "Long": -74.003256,
+        "Lat": 40.730198
       },
       {
         "Name": "NoGlu NY",
@@ -318,7 +342,8 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "https://www.noglu.nyc/",
         "Img": "bagels.jpeg",
-        "Long+Lat": "[-73.957008, 40.783586]"
+        "Long": -73.957008,
+        "Lat": 40.783586
       },
       {
         "Name": "Palmita",
@@ -330,7 +355,8 @@ container: 'map',
         "Icon": "Salads",
         "Link": "https://www.eatpalmita.com/",
         "Img": "littlebeet.jpeg",
-        "Long+Lat": "[-73.98618, 40.758995]"
+        "Long": -73.98618,
+        "Lat": 40.758995
       },
       {
         "Name": "PoshPop Bakeshop",
@@ -342,7 +368,8 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "https://www.poshpopbakeshop.com/",
         "Img": "bagels.jpeg",
-        "Long+Lat": "[-74.001522, 40.729223]"
+        "Long": -74.001522,
+        "Lat": 40.729223
       },
       {
         "Name": "PoshPop Bakeshop",
@@ -354,7 +381,8 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "https://www.poshpopbakeshop.com/",
         "Img": "bagels.jpeg",
-        "Long+Lat": "[-73.992143, 40.755846]"
+        "Long": -73.992143,
+        "Lat": 40.755846
       },
       {
         "Name": "Postcard",
@@ -366,7 +394,8 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "http://www.postcardBakery.co",
         "Img": "bagels.jpeg",
-        "Long+Lat": "[-74.003256, 40.730198]"
+        "Long": -74.003256,
+        "Lat": 40.730198
       },
       {
         "Name": "Rawsome Treats",
@@ -378,7 +407,8 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "http://www.rawsometreats.co",
         "Img": "bagels.jpeg",
-        "Long+Lat": "[-73.988673, 40.720952]"
+        "Long": -73.988673,
+        "Lat": 40.720952
       },
       {
         "Name": "Risotteria Melotti",
@@ -390,7 +420,8 @@ container: 'map',
         "Icon": "Italian",
         "Link": "https://www.risotteriamelottinyc.com/",
         "Img": "risotto.jpg",
-        "Long+Lat": "[-73.988379, 40.726638]"
+        "Long": -73.988379,
+        "Lat": 40.726638
       },
       {
         "Name": "Senza Gluten",
@@ -402,7 +433,8 @@ container: 'map',
         "Icon": "Italian",
         "Link": "https://senzaglutennyc.com/",
         "Img": "italian.jpg",
-        "Long+Lat": "[-74.000369, 40.729019]"
+        "Long": -74.000369,
+        "Lat": 40.729019
       },
       {
         "Name": "Senza Gluten by Jemiko",
@@ -414,7 +446,8 @@ container: 'map',
         "Icon": "Italian",
         "Link": "https://senzaglutenbyjemiko.com/",
         "Img": "italian.jpg",
-        "Long+Lat": "[-73.994185, 40.761081]"
+        "Long": -73.994185,
+        "Lat": 40.761081
       },
       {
         "Name": "Senza Gluten Cafe & Bakery",
@@ -426,7 +459,8 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "https://senzaglutenbyjemiko.com/",
         "Img": "bagels.jpeg",
-        "Long+Lat": "[-74.000968, 40.728027]"
+        "Long": -74.000968,
+        "Lat": 40.728027
       },
       {
         "Name": "Spring Burgers and Fries",
@@ -438,7 +472,8 @@ container: 'map',
         "Icon": "American",
         "Link": "https://www.instagram.com/eatspringy/",
         "Img": "burger.jpeg",
-        "Long+Lat": "[-74.010464, 40.703738]"
+        "Long": -74.010464,
+        "Lat": 40.703738
       },
       {
         "Name": "Springbone",
@@ -450,7 +485,8 @@ container: 'map',
         "Icon": "Salads",
         "Link": "http://springbone.com/",
         "Img": "littlebeet.jpeg",
-        "Long+Lat": "[-73.996328, 40.750422]"
+        "Long": -73.996328,
+        "Lat": 40.750422
       },
       {
         "Name": "Springbone",
@@ -462,7 +498,8 @@ container: 'map',
         "Icon": "Salads",
         "Link": "http://springbone.com/",
         "Img": "littlebeet.jpeg",
-        "Long+Lat": "[-74.010464, 40.703738]"
+        "Long": -74.010464,
+        "Lat": 40.703738
       },
       {
         "Name": "Springbone",
@@ -474,7 +511,8 @@ container: 'map',
         "Icon": "Salads",
         "Link": "http://springbone.com/",
         "Img": "littlebeet.jpeg",
-        "Long+Lat": "[-73.975545, 40.758669]"
+        "Long": -73.975545,
+        "Lat": 40.758669
       },
       {
         "Name": "Springbone",
@@ -486,7 +524,8 @@ container: 'map',
         "Icon": "Salads",
         "Link": "http://springbone.com/",
         "Img": "littlebeet.jpeg",
-        "Long+Lat": "[-73.98736, 40.740442]"
+        "Long": -73.98736,
+        "Lat": 40.740442
       },
       {
         "Name": "Springbone",
@@ -498,7 +537,8 @@ container: 'map',
         "Icon": "Salads",
         "Link": "http://springbone.com/",
         "Img": "littlebeet.jpeg",
-        "Long+Lat": "[-73.999272, 40.729913]"
+        "Long": -73.999272,
+        "Lat": 40.729913
       },
       {
         "Name": "Springbone",
@@ -510,7 +550,8 @@ container: 'map',
         "Icon": "Salads",
         "Link": "http://springbone.com/",
         "Img": "littlebeet.jpeg",
-        "Long+Lat": "[-73.982872, 40.756689]"
+        "Long": -73.982872,
+        "Lat": 40.756689
       },
       {
         "Name": "Sushi Counter",
@@ -522,7 +563,8 @@ container: 'map',
         "Icon": "Asian",
         "Link": "https://sushicounternyc.com/",
         "Img": "NamiNori.jpg",
-        "Long+Lat": "[-73.980157, 40.728704]"
+        "Long": -73.980157,
+        "Lat": 40.728704
       },
       {
         "Name": "Sushi Counter",
@@ -534,7 +576,8 @@ container: 'map',
         "Icon": "Asian",
         "Link": "https://sushicounternyc.com/",
         "Img": "NamiNori.jpg",
-        "Long+Lat": "[-74.005585, 40.733271]"
+        "Long": -74.005585,
+        "Lat": 40.733271
       },
       {
         "Name": "TAP NYC",
@@ -546,7 +589,8 @@ container: 'map',
         "Icon": "Latin American",
         "Link": "https://www.eattap.co/",
         "Img": "birrialandia.jpg",
-        "Long+Lat": "[-73.973399, 40.751898]"
+        "Long": -73.973399,
+        "Lat": 40.751898
       },
       {
         "Name": "TAP NYC",
@@ -558,7 +602,8 @@ container: 'map',
         "Icon": "Latin American",
         "Link": "https://www.eattap.co/",
         "Img": "birrialandia.jpg",
-        "Long+Lat": "[-73.978397, 40.777648]"
+        "Long": -73.978397,
+        "Lat": 40.777648
       },
       {
         "Name": "The Little Beet",
@@ -570,7 +615,8 @@ container: 'map',
         "Icon": "Salads",
         "Link": "https://www.thelittlebeet.com/locations",
         "Img": "littlebeet.jpeg",
-        "Long+Lat": "[-73.982409, 40.760841]"
+        "Long": -73.982409,
+        "Lat": 40.760841
       },
       {
         "Name": "The Little Beet",
@@ -582,7 +628,8 @@ container: 'map',
         "Icon": "Salads",
         "Link": "https://www.thelittlebeet.com/locations",
         "Img": "littlebeet.jpeg",
-        "Long+Lat": "[-73.977677, 40.75168]"
+        "Long": -73.977677,
+        "Lat": 40.75168
       },
       {
         "Name": "The Little Beet",
@@ -594,7 +641,8 @@ container: 'map',
         "Icon": "Salads",
         "Link": "https://www.thelittlebeet.com/locations",
         "Img": "littlebeet.jpeg",
-        "Long+Lat": "[-73.985458, 40.753837]"
+        "Long": -73.985458,
+        "Lat": 40.753837
       },
       {
         "Name": "The Little Beet",
@@ -606,7 +654,8 @@ container: 'map',
         "Icon": "Salads",
         "Link": "https://www.thelittlebeet.com/locations",
         "Img": "littlebeet.jpeg",
-        "Long+Lat": "[-73.973992, 40.757595]"
+        "Long": -73.973992,
+        "Lat": 40.757595
       },
       {
         "Name": "The Little Beet",
@@ -618,7 +667,8 @@ container: 'map',
         "Icon": "Salads",
         "Link": "https://www.thelittlebeet.com/locations",
         "Img": "littlebeet.jpeg",
-        "Long+Lat": "[-73.988827, 40.743964]"
+        "Long": -73.988827,
+        "Lat": 40.743964
       },
       {
         "Name": "The Little Beet",
@@ -630,7 +680,8 @@ container: 'map',
         "Icon": "Salads",
         "Link": "https://www.thelittlebeet.com/locations",
         "Img": "littlebeet.jpeg",
-        "Long+Lat": "[-73.957382, 40.766219]"
+        "Long": -73.957382,
+        "Lat": 40.766219
       },
       {
         "Name": "Thyme and Tonic",
@@ -642,7 +693,8 @@ container: 'map',
         "Icon": "American",
         "Link": "https://www.thymeandtonic.com/",
         "Img": "burger.jpeg",
-        "Long+Lat": "[-73.973879, 40.784443]"
+        "Long": -73.973879,
+        "Lat": 40.784443
       },
       {
         "Name": "TLK-Tigerlilly Kitchen",
@@ -654,7 +706,8 @@ container: 'map',
         "Icon": "Asian",
         "Link": "https://www.tlk-nyc.com/",
         "Img": "lilliandloo.jpg",
-        "Long+Lat": "[-73.995226, 40.716026]"
+        "Long": -73.995226,
+        "Lat": 40.716026
       },
       {
         "Name": "Twenty one Grains",
@@ -666,7 +719,8 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "https://twentyonegrains.com",
         "Img": "bagels.jpeg",
-        "Long+Lat": "[-74.009795, 40.704265]"
+        "Long": -74.009795,
+        "Lat": 40.704265
       },
       {
         "Name": "Twenty one Grains",
@@ -678,7 +732,8 @@ container: 'map',
         "Icon": "Bakery",
         "Link": "https://twentyonegrains.com",
         "Img": "bagels.jpeg",
-        "Long+Lat": "[-73.983891, 40.763256]"
+        "Long": -73.983891,
+        "Lat": 40.763256
       },
       {
         "Name": "Umami Express",
@@ -690,7 +745,8 @@ container: 'map',
         "Icon": "Salads",
         "Link": "https://Umamiexpress.co",
         "Img": "littlebeet.jpeg",
-        "Long+Lat": "[-73.98618, 40.758995]"
+        "Long": -73.98618,
+        "Lat": 40.758995
       },
       {
         "Name": "Wild",
@@ -702,13 +758,14 @@ container: 'map',
         "Icon": "Italian",
         "Link": "https://eatdrinkwild.com/",
         "Img": "italian.jpg",
-        "Long+Lat": "[-74.006343, 40.734571]"
+        "Long": -74.006343,
+        "Lat": 40.734571
       }
      ]
        
            let container = document.getElementById('container');
        
-           function makeCards(name, nbh, address, food, link, img, icon) {
+           function makeCards(name, nbh, address, food, link, img, icon, long, lat) {
                
                let elementDiv = document.createElement('div');
        
@@ -732,11 +789,16 @@ container: 'map',
                <p>${food_txt}</p>
                <p>${link_txt}</p>
                `;
-              
-              // const marker = new maplibregl.Marker()
-              // .setLngLat(${coordinates});
-              // .addTo(map);   
+            // add marker to the map automatically from long lat in JSON
+            const marker = new maplibregl.Marker()
+            .setLngLat([long, lat])
+            .addTo(map);   
 
+            // adding popup to each marker automatically 
+              // const marker = new maplibregl.Marker()
+              // .setLngLat([long, lat])
+              // .addTo(map);
+ 
        
                elementDiv.innerHTML = cardText;
        
@@ -749,8 +811,31 @@ container: 'map',
            
        
            df.forEach(function(c){
-               makeCards(c.Name, c.Neighborhood, c.Address, c.TypeFood, c.Link, c.Img, c.Icon, c.Coordinates);
+               makeCards(c.Name, c.Neighborhood, c.Address, c.TypeFood, c.Link, c.Img, c.Icon, c.Long, c.Lat);
            });
+          
+           // create markers and add popup 
+          const mapMarkers =[];
+
+           df.forEach(place => {
+            const el =document.createElement('div');
+              el.className ='marker';
+              el.dataset.nbh = place.neighborhood;
+              el.dataset.icon = place.icon;
+              const marker = new maplibregl.Marker(el)
+                  .setLngLat([place.Long, place.Lat])       
+                  .setPopup(
+                    new maplibregl.Popup({offset:10})
+                    .setHTML(`<h2>${place.Name}</h2><p>${place.Address}</p>`)
+                  )
+                    .addTo(map);
+
+                mapMarkers.push({
+                    marker,
+                    nbh: place.neighborhood,
+                    icon: place.icon
+                    });
+              }); 
          
          // let dropdown = document.querySelector('.dropdown');
            let allButtons = document.querySelectorAll('button');
@@ -761,24 +846,73 @@ container: 'map',
        
        // filter function
          function filterCards() {
-           cards = document.querySelectorAll('.cards'); // refresh list
+           const cards = document.querySelectorAll('.cards'); 
+           let visibleCards =0; // refresh list
+           
            cards.forEach(card => {
              const matchesNeighborhood = currentNBHFilter === 'all-nbh' || card.getAttribute('data-nbh').trim() === currentNBHFilter;
              const matchesIcon = currentFoodFilter === 'all-icon' || card.getAttribute('data-icon').trim() === currentFoodFilter;
-             card.style.display = (matchesNeighborhood && matchesIcon) ? 'block' : 'none';
+             
+             if (matchesNeighborhood && matchesIcon) {
+              card.style.display = 'block';
+              visibleCards++;
+             } else {
+              card.style.display = 'none';
+             }
            });
-         }
+        applyFilters();
+          }
+          function applyFilters(){
+           mapMarkers.forEach(({ marker, nbh, icon }) => {
+            const matchesNeighborhood = currentNBHFilter === 'all-nbh' || nbh.trim() === currentNBHFilter;
+            const matchesIcon = currentFoodFilter === 'all-icon' || icon.trim() === currentFoodFilter;
+        
+            if (matchesNeighborhood && matchesIcon) {
+              marker.getElement().style.display = '';
+            } else {
+              marker.getElement().style.display = 'none';
+            }
+          });
+        }
+
+      // function to show a message when there are no Cards displayed 
+
+          // const noResults = document.getElementById('no-results');
+          // if (visibleCards === 0) {
+          //   noResults.classList.remove('display-none');
+          // } else{
+          //   noResults.classList.add('display-none');
+          // }
+        
+        
+        
        
-       // neighborhood filter (dropdown)
-       document.getElementById('neighborhood_form').addEventListener('submit', 
-        function filternbh(event) {
-            event.preventDefault();
-            const neighborhood = document.getElementById('neighborhood').value;
-            currentNBHFilter = neighborhood === "Show All" ? 'all-nbh' : neighborhood; 
-            filterCards();
-            const container = document.getElementById("container");
-            container.style.display = "block";
-        });
+      //  neighborhood filter (dropdown)
+      //  document.getElementById('neighborhood_form').addEventListener('submit', 
+      //   function filternbh(event) {
+      //       event.preventDefault();
+      //       const neighborhood = document.getElementById('neighborhood').value;
+      //       currentNBHFilter = neighborhood === "Show All" ? 'all-nbh' : neighborhood; 
+      //       filterCards();
+      //       const container = document.getElementById("container");
+      //       container.style.display = "block";
+      //   });
+
+
+
+    // for (let i = 0; i < cards.length; i++) {
+    //   let noResults = document.getElementById("no-results");
+    //   let title = cards[i].querySelector(".cards div.container");
+    //   if (title.innerText.toUpperCase().indexOf(input) > -1) {
+    //     cards[i].classList.remove("display-none");
+    //     cards[i].classList.add("displaying");
+    //   } else {
+    //     cards[i].classList.add("display-none");
+    //     cards[i].classList.remove("displaying");
+    //     checkDisplay();
+    //   }
+    // }
+        
     //    const selectElement = document.getElementById('neighborhood');
     //         selectElement.addEventListener('change', function () {
     //         currentNBHFilter = this.getAttribute('value') === "Show All" ? 'all-nbh' : this.getAttribute('value');
@@ -803,4 +937,4 @@ container: 'map',
          });
 
        
-         ;
+         

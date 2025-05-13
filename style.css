@@ -34,7 +34,7 @@ margin-top: 20px;
 #container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   vertical-align: column;
   width: 100%;
   margin: 10px;
@@ -223,13 +223,23 @@ margin-top: 20px;
             /* border: 1px solid #fff; */
             cursor: pointer; 
         }
-
-      #datalist {
+/* styling the popups on the markers */
+  .maplibregl-Popup {
+    border-radius: 70%;
+    padding: 0;
+    border: #A4036F;
+    cursor: pointer;
+  }
+    #datalist {
         display:none;
       }
-    
-
-
+    .display-none {
+        display: none;
+      }
+      
+    .displaying {
+        display: block;
+      }
 
 @media (max-width: 800px) {
 
