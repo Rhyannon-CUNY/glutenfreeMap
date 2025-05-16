@@ -25,7 +25,7 @@
  <h2>What type of food?</h2>
 <div class='filter-container'>
     <div class = "button-container">
-      <button data-value="Anything!"><image src= "./img/anything.png" class ="icon"></image></button>
+      <button data-value="Anything"><image src= "./img/anything.png" class ="icon"></image></button>
       <button data-value="Bakery"><image src= "./img/bakery.png" class ="icon"></image></button>
       <button data-value="Salads"><image src= "./img/salads.png" class ="icon"></image></button>
       <button data-value="Latin American"><image src= "./img/latinamerican.png" class ="icon"></image></button>
@@ -34,7 +34,7 @@
       <button data-value="African"><image src= "./img/african.png" class ="icon"></image></button>
       <button data-value="American"><image src= "./img/american.png" class ="icon"></image></button>  
     </div>
-
+   
 <!-- neighborhood selector -->
     <form id="neighborhood_form" onsubmit="filternbh(event)" method="get">
         <label class ="neighborhood" for="neighborhood"><h2>Which neighborhood?</h2></label>    <!-- <select id="neighborhood" required> -->
@@ -55,15 +55,21 @@
         </datalist>
       <input type="submit" class="submit-button" value="Let's go!">
     </form>
-    
+    <p> Disclaimer - Not all restaurants are 100% Gluten Free -</p>  
 </div>
 <div id="item-container">
     <div id ="container">
-      <div class="no-results-message display-none" id="no-results"><p>There are no results!</p></div>
+      <div class="no-results-message display-none" id="no-results"><p>Try a different neighborhood or type of food!</p>
+      <img src="/img/Celiaco.jpeg" alt= "No results" class= "noresults-img"></div>
     </div>
     <div id="map">
     </div>
     </div>
+    
+    <a href="https://www.flaticon.com/free-icons/food-and-restaurant" title="food and restaurant icons"><p>Food and restaurant icons created by Freepik - Flaticon</p></a>
+   
+
+
     <script src="script.js"></script>
 </div>
 </body>

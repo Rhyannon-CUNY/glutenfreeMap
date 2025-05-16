@@ -1,10 +1,4 @@
-// maptilersdk.config.apiKey = 'eppeRtADpgbcNzKDoHlF';
-// const map = new maptilersdk.Map({
-//   container: 'map', // container's id or the HTML element in which the SDK will render the map
-//   style: maptilersdk.MapStyle.STREETS,
-//   center: [-73.9816, 40.7538], // starting position [lng, lat]
-//   zoom: 12 // starting zoom
-// });    
+
 
 const map = new maplibregl.Map({
 container: 'map',
@@ -14,9 +8,9 @@ container: 'map',
     zoom: 12
 });
  // add default point on map //
- const marker = new maplibregl.Marker()
- .setLngLat([-73.985503, 40.758959])
- .addTo(map);   
+//  const marker = new maplibregl.Marker()
+//  .setLngLat([-73.985503, 40.758959])
+//  .addTo(map);   
 
     
     const df = [
@@ -763,178 +757,115 @@ container: 'map',
       }
      ]
        
-           let container = document.getElementById('container');
-       
-           function makeCards(name, nbh, address, food, link, img, icon, long, lat) {
-               
-               let elementDiv = document.createElement('div');
-       
-               elementDiv.classList.add('cards')
-               elementDiv.style.backgroundImage = `url('../img/${img}')`;
-               
-               let name_txt = `<b>${name}</b>`;
-               
-               let nbh_txt = `<b>${nbh}</b>`;
-               
-               let address_txt = `${address}`;
-       
-               let food_txt = `${food}`;
-       
-               let link_txt = `<a href = "${link}" target = "_blank">Website</a>`;
-       
-               let cardText = `
-               <h2>${name_txt}</h2>
-               <p>${nbh_txt}</p>
-               <p>${address_txt}</p>
-               <p>${food_txt}</p>
-               <p>${link_txt}</p>
-               `;
-            // add marker to the map automatically from long lat in JSON
-            const marker = new maplibregl.Marker()
-            .setLngLat([long, lat])
-            .addTo(map);   
+     let container = document.getElementById('container');
 
-            // adding popup to each marker automatically 
-              // const marker = new maplibregl.Marker()
-              // .setLngLat([long, lat])
-              // .addTo(map);
- 
-       
-               elementDiv.innerHTML = cardText;
-       
-       
-               elementDiv.setAttribute('data-nbh', nbh);
-               elementDiv.setAttribute('data-icon', icon);
-           
-               container.append(elementDiv);
-               }
-           
-       
-           df.forEach(function(c){
-               makeCards(c.Name, c.Neighborhood, c.Address, c.TypeFood, c.Link, c.Img, c.Icon, c.Long, c.Lat);
-           });
+     function makeCards(name, nbh, address, food, link, img, icon, long, lat) {
+         let elementDiv = document.createElement('div');
+         elementDiv.classList.add('cards');
+         elementDiv.style.backgroundImage = `url('../img/${img}')`;
+     
+         let cardText = `
+             <h2><b>${name}</b></h2>
+             <p><b>${nbh}</b></p>
+             <p>${address}</p>
+             <p>${food}</p>
+             <p><a href="${link}" target="_blank">Website</a></p>
+         `;
+     
+         // Add marker
+         const markerEl = document.createElement('div');
+         markerEl.className = 'marker';
+         markerEl.dataset.nbh = nbh;
+         markerEl.dataset.icon = icon;
+     
+         const marker = new maplibregl.Marker(markerEl)
+             .setLngLat([long, lat])
+             .setPopup(
+                 new maplibregl.Popup({ offset: 10 })
+                 .setHTML(`<h2>${name}</h2><p>${address}</p>`)
+             )
+             .addTo(map);
           
-           // create markers and add popup 
-          const mapMarkers =[];
+          
+         mapMarkers.push({ marker, nbh, icon });
+     
+         elementDiv.innerHTML = cardText;
+         elementDiv.setAttribute('data-nbh', nbh);
+         elementDiv.setAttribute('data-icon', icon);
+         container.append(elementDiv);
+     }
+     
+     const mapMarkers = [];
+     
+     df.forEach(c => {
+         makeCards(c.Name, c.Neighborhood, c.Address, c.TypeFood, c.Link, c.Img, c.Icon, c.Long, c.Lat);
+     });
+     
+     let currentNBHFilter = 'all-nbh';
+     let currentFoodFilter = 'Anything';
+   
+   function filterCards() {
+      const cards = document.querySelectorAll('.cards');
+      const noResults = document.getElementById('no-results');
+      let visibleCount = 0;
 
-           df.forEach(place => {
-            const el =document.createElement('div');
-              el.className ='marker';
-              el.dataset.nbh = place.neighborhood;
-              el.dataset.icon = place.icon;
-              const marker = new maplibregl.Marker(el)
-                  .setLngLat([place.Long, place.Lat])       
-                  .setPopup(
-                    new maplibregl.Popup({offset:10})
-                    .setHTML(`<h2>${place.Name}</h2><p>${place.Address}</p>`)
-                  )
-                    .addTo(map);
-
-                mapMarkers.push({
-                    marker,
-                    nbh: place.neighborhood,
-                    icon: place.icon
-                    });
-              }); 
-         
-         // let dropdown = document.querySelector('.dropdown');
-           let allButtons = document.querySelectorAll('button');
-           let cards = document.querySelectorAll('.cards');
-         // let currentNBHFilter = 'Show All';
-           let currentNBHFilter = 'all-nbh';
-           let currentFoodFilter = 'all-icon';
-       
-       // filter function
-         function filterCards() {
-           const cards = document.querySelectorAll('.cards'); 
-           let visibleCards =0; // refresh list
-           
-           cards.forEach(card => {
-             const matchesNeighborhood = currentNBHFilter === 'all-nbh' || card.getAttribute('data-nbh').trim() === currentNBHFilter;
-             const matchesIcon = currentFoodFilter === 'all-icon' || card.getAttribute('data-icon').trim() === currentFoodFilter;
-             
-             if (matchesNeighborhood && matchesIcon) {
-              card.style.display = 'block';
-              visibleCards++;
-             } else {
-              card.style.display = 'none';
-             }
-           });
-        applyFilters();
-          }
-          function applyFilters(){
-           mapMarkers.forEach(({ marker, nbh, icon }) => {
-            const matchesNeighborhood = currentNBHFilter === 'all-nbh' || nbh.trim() === currentNBHFilter;
-            const matchesIcon = currentFoodFilter === 'all-icon' || icon.trim() === currentFoodFilter;
-        
-            if (matchesNeighborhood && matchesIcon) {
-              marker.getElement().style.display = '';
-            } else {
-              marker.getElement().style.display = 'none';
-            }
-          });
-        }
-
-      // function to show a message when there are no Cards displayed 
-
-          // const noResults = document.getElementById('no-results');
-          // if (visibleCards === 0) {
-          //   noResults.classList.remove('display-none');
-          // } else{
-          //   noResults.classList.add('display-none');
-          // }
-        
-        
-        
-       
-      //  neighborhood filter (dropdown)
-      //  document.getElementById('neighborhood_form').addEventListener('submit', 
-      //   function filternbh(event) {
-      //       event.preventDefault();
-      //       const neighborhood = document.getElementById('neighborhood').value;
-      //       currentNBHFilter = neighborhood === "Show All" ? 'all-nbh' : neighborhood; 
-      //       filterCards();
-      //       const container = document.getElementById("container");
-      //       container.style.display = "block";
-      //   });
-
-
-
-    // for (let i = 0; i < cards.length; i++) {
-    //   let noResults = document.getElementById("no-results");
-    //   let title = cards[i].querySelector(".cards div.container");
-    //   if (title.innerText.toUpperCase().indexOf(input) > -1) {
-    //     cards[i].classList.remove("display-none");
-    //     cards[i].classList.add("displaying");
-    //   } else {
-    //     cards[i].classList.add("display-none");
-    //     cards[i].classList.remove("displaying");
-    //     checkDisplay();
-    //   }
-    // }
-        
-    //    const selectElement = document.getElementById('neighborhood');
-    //         selectElement.addEventListener('change', function () {
-    //         currentNBHFilter = this.getAttribute('value') === "Show All" ? 'all-nbh' : this.getAttribute('value');
-    //         filterCards();
-    //      });
-       
-       // food type filter (buttons)
-       document.querySelectorAll('.button-container button').forEach(button => {
+      cards.forEach(card => {
+         const matchesNeighborhood = currentNBHFilter === 'all-nbh' || card.getAttribute('data-nbh').trim() === currentNBHFilter;
+         const matchesIcon = currentFoodFilter === 'Anything' || card.getAttribute('data-icon').trim() === currentFoodFilter;
+         const shouldShow = matchesNeighborhood && matchesIcon;
+         card.style.display = shouldShow ? 'block' : 'none';
+         if(shouldShow){
+           visibleCount++;
+         }
+      });
+      if(visibleCount === 0){
+       noResults.style.display = 'block';
+      } else {
+       noResults.style.display = 'none';
+      }
+      applyFilters();
+  }  
+  
+     
+     function applyFilters() {
+         mapMarkers.forEach(({ marker, nbh, icon }) => {
+             const matchesNeighborhood = currentNBHFilter === 'all-nbh' || nbh.trim() === currentNBHFilter;
+             const matchesIcon = currentFoodFilter === 'Anything' || icon.trim() === currentFoodFilter;
+             marker.getElement().style.display = (matchesNeighborhood && matchesIcon) ? '' : 'none';
+         });
+         console.log("Filtering map markers by:", currentNBHFilter, currentFoodFilter);
+     }
+     
+     function filternbh(event) {
+         event.preventDefault();
+         const neighborhood = document.getElementById('neighborhood').value;
+         currentNBHFilter = neighborhood === "Show All" ? 'all-nbh' : neighborhood;
+         filterCards();
+     }
+     function showAllPlaces () {
+      allmMarkers.forEach(marker=> marker.remove());
+      allMarkers = [];
+      const marker = new maplibregl.Marker()
+      .setLngLat()
+      .addTo(map);
+      allMarkers.push(marker);
+     }
+     document.getElementById('neighborhood_form').addEventListener('submit', filternbh);
+    //  document.getElementById('anything-button').addEventListener('click', () =>{showAllPlaces();})
+     
+     document.querySelectorAll('.button-container button').forEach(button => {
          button.addEventListener('click', function () {
-           currentFoodFilter = this.getAttribute('data-value') === "Anything!" ? 'all-icon' : this.getAttribute('data-value');
-           filterCards();
+             currentFoodFilter = button.getAttribute('data-value');
+             filterCards();
          });
-       });
-    
-       
-         let dropdown = document.querySelector('.dropdown');
-         dropdown.addEventListener('mouseleave', function() {
-           this.classList.remove('hover');
-         });
-         dropdown.addEventListener('click', function() {
-           this.classList.add('clicked');
-         });
-
-       
-         
+     });
+     
+     // Dropdown UX
+     let dropdown = document.querySelector('.dropdown');
+     dropdown.addEventListener('mouseleave', function () {
+         this.classList.remove('hover');
+     });
+     dropdown.addEventListener('click', function () {
+         this.classList.add('clicked');
+     });
+     
