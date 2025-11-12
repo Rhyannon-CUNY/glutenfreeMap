@@ -1,18 +1,24 @@
-
-
 const map = new maplibregl.Map({
-container: 'map',
-  style:
-      'https://api.maptiler.com/maps/streets/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL',
-    center: [-73.9816, 40.7538],
-    zoom: 12
+  container: 'map',
+  style: {
+      'version': 8,
+      'sources': {
+          'carto': {
+              'type': 'raster',
+              'tiles': ['https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png'],
+              'tileSize': 256,
+              'attribution': '© OpenStreetMap contributors © CARTO'
+          }
+      },
+      'layers': [{
+          'id': 'carto',
+          'type': 'raster',
+          'source': 'carto'
+      }]
+  },
+  center: [-73.9816, 40.7538],
+  zoom: 12
 });
- // add default point on map //
-//  const marker = new maplibregl.Marker()
-//  .setLngLat([-73.985503, 40.758959])
-//  .addTo(map);   
-
-    
     const df = [
       {
         "Name": "Agata & Valentina",
@@ -762,7 +768,7 @@ container: 'map',
      function makeCards(name, nbh, address, food, link, img, icon, long, lat) {
          let elementDiv = document.createElement('div');
          elementDiv.classList.add('cards');
-         elementDiv.style.backgroundImage = `url('../img/${img}')`;
+         elementDiv.style.backgroundImage = `url('./img/${img}')`;
      
          let cardText = `
              <h2><b>${name}</b></h2>
