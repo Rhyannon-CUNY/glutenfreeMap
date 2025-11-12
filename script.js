@@ -762,7 +762,7 @@ container: 'map',
      function makeCards(name, nbh, address, food, link, img, icon, long, lat) {
          let elementDiv = document.createElement('div');
          elementDiv.classList.add('cards');
-         elementDiv.style.backgroundImage = `url('../img/${img}')`;
+         elementDiv.style.backgroundImage = `url('./img/${img}')`;
      
          let cardText = `
              <h2><b>${name}</b></h2>
